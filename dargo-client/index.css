@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+#trackpad {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+#indicator {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+#indicator.disconnected {
+    background-color: #e66969;
+}
+
+#indicator.connecting {
+    background-color: #e69e69;
+}
+
+#indicator.connected {
+    background-color: #83e65f;
+}
